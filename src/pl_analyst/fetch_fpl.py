@@ -10,5 +10,8 @@ players = data["elements"]
 
 top_scorers = sorted(players, key=lambda p: p["goals_scored"], reverse=True)
 
-for player in top_scorers[:5]:
+
+for player in top_scorers[:10]:
+
+
     print(player["web_name"], player["goals_scored"])
